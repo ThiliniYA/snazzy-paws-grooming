@@ -1,4 +1,4 @@
-﻿/* ============================
+/* ============================
    CSS Variables — change these
    to adjust the whole site's
    look from one place
@@ -12,6 +12,7 @@
     --color-bg-alt: #f7f5f1;       /* soft off-white section background */
     --color-text: #2b2b2b;
     --color-text-light: #6b6b6b;
+    --color-accent-light: #fdece0;
     --font-main: 'Poppins', Arial, sans-serif;
     --max-width: 1100px;
 }
@@ -55,7 +56,7 @@ h1, h2, h3 {
     display: inline-flex;
     align-items: center;
     gap: 0.9rem;
-    background-color: var(--color-accent);
+    background-color: var(--color-accent-dark);
     color: #ffffff;
     padding: 0.9rem 2rem;
     border-radius: 30px;
@@ -75,7 +76,7 @@ h1, h2, h3 {
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--color-accent-dark);
+    background-color: #c96f2e;
 }
 
 /* Generic placeholder box — used until real images are added */
@@ -400,10 +401,10 @@ footer p {
 }
 
 .map-embed {
-    width: 120%;
+    width: 100%;
     height: 180px;
     border: 0;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .footer-divider {
@@ -415,7 +416,7 @@ footer p {
 .copyright {
     text-align: center;
     font-size: 0.85rem;
-    color: #b8b8b8;
+    color: #d8d8d8;
 }
 
 
