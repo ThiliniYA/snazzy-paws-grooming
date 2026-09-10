@@ -56,8 +56,8 @@ h1, h2, h3 {
     display: inline-flex;
     align-items: center;
     gap: 0.9rem;
-    background-color: var(--color-accent);
-    color: var(--color-primary-dark);
+    background-color: var(--color-primary);
+    color: #ffffff;
     padding: 0.9rem 2rem;
     border-radius: 30px;
     font-weight: 600;
@@ -67,7 +67,7 @@ h1, h2, h3 {
 .btn-icon {
     width: 18px;
     height: 18px;
-    fill: var(--color-primary-dark);
+    fill: #ffffff;
     flex-shrink: 0;
     position: relative;
     top: 2px;
@@ -76,7 +76,7 @@ h1, h2, h3 {
 
 .btn:hover,
 .btn:focus {
-    background-color: #c96f2e;
+    background-color: var(--color-primary-dark);
 }
 
 /* Generic placeholder box — used until real images are added */
