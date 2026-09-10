@@ -56,8 +56,8 @@ h1, h2, h3 {
     display: inline-flex;
     align-items: center;
     gap: 0.9rem;
-    background-color: var(--color-accent-dark);
-    color: #ffffff;
+    background-color: var(--color-accent);
+    color: var(--color-primary-dark);
     padding: 0.9rem 2rem;
     border-radius: 30px;
     font-weight: 600;
@@ -67,7 +67,7 @@ h1, h2, h3 {
 .btn-icon {
     width: 18px;
     height: 18px;
-    fill: #ffffff;
+    fill: var(--color-primary-dark);
     flex-shrink: 0;
     position: relative;
     top: 2px;
