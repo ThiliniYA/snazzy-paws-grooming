@@ -1,0 +1,6 @@
+<Files "roster.html">
+    AuthType Basic
+    AuthName "Snazzy Paws Grooming - Staff Roster"
+    AuthUserFile /home/yourusername/.htpasswd
+    Require valid-user
+</Files>

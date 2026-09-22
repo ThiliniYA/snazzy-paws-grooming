@@ -1,54 +1,93 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- ============================
+                 Meta & Page Settings
+             ============================ -->
 		<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<title>Snazzy Paws Grooming | Gallery</title>
-				<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-					<link rel="stylesheet" href="css/style.min.css">
+				<meta name="description"
+					  content="See happy, freshly groomed dogs and read our latest dog care tips at Snazzy Paws Grooming, Hamilton.">
+					<title>Snazzy Paws Grooming | Gallery</title>
+
+					<!-- ============================
+                              Fonts & Stylesheets
+                         ============================ -->
+					<link rel="preconnect" href="https://fonts.googleapis.com">
+						<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+							<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+								<link rel="stylesheet" href="css/style.css">
 </head>
+
 	<body>
 
+		<!-- ============================
+                  Header & Navigation
+             ============================ -->
 		<header>
-			<nav>
-				<a href="index.html" class="logo">
-					<img src="images/logo.png" alt="Snazzy Paws Grooming" class="logo-img">
-        </a>
+			<nav class="navbar navbar-expand-lg navbar-custom py-2">
+				<div class="container">
 
-				<input type="checkbox" id="nav-toggle" class="nav-toggle">
-					<label for="nav-toggle" class="nav-toggle-label">
-    <span class="visually-hidden">Open menu</span>
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-</label>
-					<ul>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="services.html">Services</a>
-						</li>
-						<li>
-							<a href="booking.html">Booking</a>
-						</li>
-						<li>
-							<a href="gallery.html">Gallery</a>
-						</li>
-						<li>
-							<a href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
+					<!-- Logo -->
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" alt="Snazzy Paws Grooming" class="logo-img">
+                </a>
+
+					<!-- Mobile Toggle -->
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+							aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- Navigation Links -->
+					<div class="collapse navbar-collapse" id="mainNav">
+						<ul class="navbar-nav ms-auto text-center">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="services.html">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="booking.html">Booking</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="roster.html">Roster</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="privacy.html">Privacy</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</nav>
 		</header>
 
+
+		<!-- ============================
+                Hero Section (Compact)
+             ============================ -->
 		<main>
-			<section class="hero hero-compact">
-				<div class="hero-content">
-					<h1>Gallery</h1>
-					<p>See our happy, snazzy clients — and pick up some grooming tips along the way</p>
-					<a href="booking.html" class="btn">
-						<svg class="btn-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+			<section class="hero hero-compact py-5">
+				<div class="container">
+
+					<h1 class="fw-bold">Gallery</h1>
+
+					<p class="lead">
+						See our happy, snazzy clients &mdash; and pick up some grooming tips along the way
+					</p>
+
+					<!-- CTA Button -->
+					<a href="booking.html" class="btn btn-lg rounded-pill">
+						<svg class="btn-icon" viewBox="0 0 64 64" aria-hidden="true">
 							<ellipse cx="32" cy="42" rx="16" ry="13"/>
 							<ellipse cx="14" cy="24" rx="6" ry="8"/>
 							<ellipse cx="28" cy="12" rx="6" ry="8"/>
@@ -57,136 +96,308 @@
 						</svg>
 						Book an Appointment
 					</a>
+
 				</div>
 			</section>
 
-			<section class="photo-gallery">
-				<h2>Photo Gallery</h2>
-				<div class="gallery-grid">
-    <img src="images/gallery-1.jpg" alt="Freshly groomed poodle" class="gallery-img">
-    <img src="images/gallery-2.jpg" alt="Dog enjoying a bath" class="gallery-img">
-    <img src="images/gallery-3.jpg" alt="Dog getting a haircut" class="gallery-img">
-    <img src="images/gallery-4.jpg" alt="Happy dog after grooming" class="gallery-img">
-    <img src="images/gallery-5.jpg" alt="Puppy's first grooming session" class="gallery-img">
-    <img src="images/gallery-6.jpg" alt="Dog with a fresh haircut and bow" class="gallery-img">
-    <img src="images/gallery-7.jpg" alt="Groomer brushing a fluffy dog" class="gallery-img">
-    <img src="images/gallery-8.jpg" alt="Dog receiving a nail trim" class="gallery-img">
-    <img src="images/gallery-9.jpg" alt="Dog after a spa package treatment" class="gallery-img">
-    <img src="images/gallery-10.jpg" alt="Senior dog groomed with care" class="gallery-img">
-    <img src="images/gallery-11.jpg" alt="Dog getting ears cleaned" class="gallery-img">
-    <img src="images/gallery-12.jpg" alt="Groomed dog relaxing in salon" class="gallery-img">
-    <img src="images/gallery-13.jpg" alt="Dog with a special-breed styled cut" class="gallery-img">
-    <img src="images/gallery-14.jpg" alt="Dog enjoying a blow-dry" class="gallery-img">
-    <img src="images/gallery-15.jpg" alt="Two dogs freshly groomed together" class="gallery-img">
-    <img src="images/gallery-16.jpg" alt="Dog owner picking up their groomed dog" class="gallery-img">
-</div>
-			</section>
 
-			<section class="articles">
-				<h2>Articles</h2>
-				<div class="articles-grid">
-					<article class="article-card">
-						<h3>Brushing Tips for Long-Haired Breeds</h3>
-						<p>
-							Long-haired dogs benefit from brushing at least 3-4 times a week to prevent
-							matting and tangles. Always brush in the direction of hair growth, and use a
-							slicker brush for the undercoat followed by a comb to catch any remaining knots.
-							Regular brushing between grooming visits keeps your dog's coat healthier and
-							makes each salon visit quicker and more comfortable.
-						</p>
-					</article>
-					<article class="article-card">
-						<h3>How Often Should You Bathe Your Dog?</h3>
-						<p>
-							Most dogs do well with a bath every 4-6 weeks, though this varies by breed,
-							coat type and lifestyle. Bathing too often can strip natural oils and dry out
-							the skin, while too infrequent bathing can lead to odour and matting. If your
-							dog has a skin condition, ask us about our medicated bath option.
-						</p>
-					</article>
-					<article class="article-card">
-						<h3>Signs Your Dog Needs a Grooming Visit</h3>
-						<p>
-							Watch for matted or tangled fur, overgrown nails that click on hard floors, a
-							noticeable odour, or excessive shedding around the house. Ears that smell
-							unusual or seem irritated are also worth a professional look. Regular grooming
-							every 4-8 weeks helps catch these issues early.
-						</p>
-					</article>
+			<!-- ============================
+                        Photo Gallery
+                 ============================ -->
+			<section class="photo-gallery py-5">
+				<div class="container text-center">
+
+					<h2 class="mb-4">Photo Gallery</h2>
+
+					<div class="row row-cols-2 row-cols-md-4 g-3">
+
+						<!-- Image 1 -->
+						<div class="col">
+							<img src="images/gallery-1.jpg"
+								 alt="Freshly groomed poodle with a neat, rounded coat"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 2 -->
+						<div class="col">
+							<img src="images/gallery-2.jpg"
+								 alt="Dog being rinsed and shampooed in the wash tub"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 3 -->
+						<div class="col">
+							<img src="images/gallery-3.jpg"
+								 alt="Groomer trimming a dog's coat with clippers"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 4 -->
+						<div class="col">
+							<img src="images/gallery-4.jpg"
+								 alt="Happy dog sitting after a full groom"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 5 -->
+						<div class="col">
+							<img src="images/gallery-5.jpg"
+								 alt="Puppy calmly experiencing its first grooming session"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 6 -->
+						<div class="col">
+							<img src="images/gallery-6.jpg"
+								 alt="Dog with a fresh haircut wearing a decorative bow"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 7 -->
+						<div class="col">
+							<img src="images/gallery-7.jpg"
+								 alt="Groomer brushing out a fluffy dog's coat"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 8 -->
+						<div class="col">
+							<img src="images/gallery-8.jpg"
+								 alt="Dog having its nails carefully trimmed"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 9 -->
+						<div class="col">
+							<img src="images/gallery-9.jpg"
+								 alt="Dog relaxed after a scented spa package treatment"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 10 -->
+						<div class="col">
+							<img src="images/gallery-10.jpg"
+								 alt="Senior dog groomed gently with extra care"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 11 -->
+						<div class="col">
+							<img src="images/gallery-11.jpg"
+								 alt="Groomer gently cleaning a dog's ears"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 12 -->
+						<div class="col">
+							<img src="images/gallery-12.jpg"
+								 alt="Groomed dog resting comfortably in the salon"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 13 -->
+						<div class="col">
+							<img src="images/gallery-13.jpg"
+								 alt="Dog with a special-breed show-style cut"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 14 -->
+						<div class="col">
+							<img src="images/gallery-14.jpg"
+								 alt="Dog enjoying a warm blow-dry after its bath"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 15 -->
+						<div class="col">
+							<img src="images/gallery-15.jpg"
+								 alt="Two freshly groomed dogs sitting together"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+						<!-- Image 16 -->
+						<div class="col">
+							<img src="images/gallery-16.jpg"
+								 alt="Owner collecting their groomed dog from the salon"
+								 class="gallery-img img-fluid w-100">
+							</div>
+
+					</div>
 				</div>
 			</section>
 
-			<section class="pet-tips">
-				<h2>Tips for Pet Owners</h2>
-				<ul class="tips-list">
-					<li>Introduce grooming tools early — let puppies sniff and get used to brushes before their first real session.</li>
-					<li>Reward calm behaviour during and after grooming with treats or praise, to build positive associations.</li>
-					<li>Check paws and ears weekly at home, even between salon visits, to catch problems early.</li>
-					<li>Keep up with regular nail trims — overgrown nails can affect your dog's posture and walking.</li>
-				</ul>
+			<!-- ============================
+                     Articles Section
+                 ============================ -->
+			<section class="articles py-5 border-top bg-light">
+				<div class="container">
+
+					<h2 class="text-center mb-4">Articles</h2>
+
+					<div class="row row-cols-1 row-cols-md-3 g-4">
+
+						<!-- Article 1 -->
+						<div class="col">
+							<div class="card h-100 border-0 bg-transparent">
+								<div class="card-body px-0">
+									<h3 class="h6">Brushing Tips for Long-Haired Breeds</h3>
+									<p class="text-muted small">
+										Long-haired dogs benefit from brushing at least 3–4 times a week to prevent
+										matting and tangles. Always brush in the direction of hair growth, using a slicker
+										brush for the undercoat followed by a comb to catch remaining knots. Regular
+										brushing keeps the coat healthier and makes grooming visits quicker and more
+										comfortable.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Article 2 -->
+						<div class="col">
+							<div class="card h-100 border-0 bg-transparent">
+								<div class="card-body px-0">
+									<h3 class="h6">How Often Should You Bathe Your Dog?</h3>
+									<p class="text-muted small">
+										Most dogs do well with a bath every 4–6 weeks, though this varies by breed,
+										coat type and lifestyle. Bathing too often can strip natural oils, while infrequent
+										bathing can lead to odour and matting. If your dog has a skin condition, ask us
+										about our medicated bath option.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Article 3 -->
+						<div class="col">
+							<div class="card h-100 border-0 bg-transparent">
+								<div class="card-body px-0">
+									<h3 class="h6">Signs Your Dog Needs a Grooming Visit</h3>
+									<p class="text-muted small">
+										Watch for matted fur, overgrown nails that click on hard floors, noticeable odour,
+										or excessive shedding. Ears that smell unusual or seem irritated also need a
+										professional look. Regular grooming every 4–8 weeks helps catch issues early.
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+			<!-- ============================
+                       Pet Tips Section
+                 ============================ -->
+			<section class="pet-tips py-5">
+				<div class="container" style="max-width: 800px;">
+
+					<h2 class="text-center mb-4">Tips for Pet Owners</h2>
+
+					<ul class="list-unstyled d-flex flex-column gap-3">
+						<li class="text-muted">🐾 Introduce grooming tools early — let puppies sniff and get used to brushes before their first session.</li>
+						<li class="text-muted">🐾 Reward calm behaviour during and after grooming to build positive associations.</li>
+						<li class="text-muted">🐾 Check paws and ears weekly to catch problems early, even between salon visits.</li>
+						<li class="text-muted">🐾 Keep up with regular nail trims — overgrown nails can affect posture and walking.</li>
+					</ul>
+
+				</div>
 			</section>
 		</main>
 
-		<footer>
-			<div class="footer-inner">
-				<div class="footer-brand">
-					<img src="images/logo1.png" alt="Snazzy Paws Grooming" class="footer-logo-img">
-						<p>Professional grooming with a personal touch.</p>
-						<p class="follow-label">Follow Us</p>
-						<div class="social-links">
-							<a href="#" aria-label="Facebook">
-								<img src="images/FB.png" alt="Facebook">
-							</a>
-							<a href="#" aria-label="Instagram">
-								<img src="images/Insta.png" alt="Instagram">
-							</a>
-							<a href="#" aria-label="TikTok">
-								<img src="images/TikTok.png" alt="TikTok">
-							</a>
+
+		<!-- ============================
+                   Footer
+             ============================ -->
+		<footer class="pt-5 pb-3">
+			<div class="container">
+
+				<div class="row gy-4">
+
+					<!-- Logo & Social -->
+					<div class="col-md-4">
+						<img src="images/logo1.png" alt="Snazzy Paws Grooming" class="footer-logo-img mb-2">
+
+							<p class="small">Professional grooming with a personal touch.</p>
+
+							<p class="fw-semibold mb-2">Follow Us</p>
+
+							<div class="social-links d-flex gap-2">
+								<a href="#" aria-label="Facebook">
+									<img src="images/FB.png" alt="Facebook" width="18">
+                        </a>
+								<a href="#" aria-label="Instagram">
+									<img src="images/Insta.png" alt="Instagram" width="18">
+                        </a>
+								<a href="#" aria-label="TikTok">
+									<img src="images/TikTok.png" alt="TikTok" width="18">
+                        </a>
+							</div>
 						</div>
+
+					<!-- Contact Info -->
+					<div class="col-md-4">
+						<h3 class="h5">Contact Us</h3>
+
+						<p class="footer-contact-item d-flex align-items-start gap-2 mb-1">
+							<svg class="footer-icon" width="16" height="16" aria-hidden="true">
+								<path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 7a2 2 0 0 1 1-2z"
+									  fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+							</svg>
+							07 123 4567
+						</p>
+
+						<p class="footer-contact-item d-flex align-items-start gap-2 mb-1">
+							<svg class="footer-icon" width="16" height="16" aria-hidden="true">
+								<rect x="3" y="5" width="18" height="14" rx="2"
+									  fill="none" stroke="currentColor" stroke-width="2"/>
+								<path d="M3 7l9 6 9-6"
+									  fill="none" stroke="currentColor" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+							info@snazzypawsgrooming.co.nz
+						</p>
+
+						<p class="footer-contact-item d-flex align-items-start gap-2">
+							<svg class="footer-icon" width="16" height="16" aria-hidden="true">
+								<path d="M12 21s-6.5-5.6-6.5-11A6.5 6.5 0 0 1 12 3.5 6.5 6.5 0 0 1 18.5 10c0 5.4-6.5 11-6.5 11z"
+									  fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+								<circle cx="12" cy="10" r="2.2"
+										fill="none" stroke="currentColor" stroke-width="2"/>
+							</svg>
+							224 Victoria Street, Hamilton 3204
+						</p>
+
+						<h3 class="h5 mt-3">Opening Hours</h3>
+						<p class="mb-0">Monday &ndash; Saturday: 9:00 AM &ndash; 5:00 PM</p>
+						<p>Sunday: Closed</p>
 					</div>
 
-				<div class="footer-contact">
-					<h3>Contact Us</h3>
-					<p class="footer-contact-item">
-						<svg class="footer-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-							<path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 7a2 2 0 0 1 1-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-						</svg>
-						07 123 4567
-					</p>
-					<p class="footer-contact-item">
-						<svg class="footer-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-							<rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
-							<path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						</svg>
-						info@snazzypawsgrooming.co.nz
-					</p>
-					<p class="footer-contact-item">
-						<svg class="footer-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-							<path d="M12 21s-6.5-5.6-6.5-11A6.5 6.5 0 0 1 12 3.5 6.5 6.5 0 0 1 18.5 10c0 5.4-6.5 11-6.5 11z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-							<circle cx="12" cy="10" r="2.2" fill="none" stroke="currentColor" stroke-width="2"/>
-						</svg>
-						224 Victoria Street, Hamilton 3204
-					</p>
-					<h3 class="hours-heading">Opening Hours</h3>
-					<p>Monday – Saturday: 9:00 AM – 5:00 PM</p>
-					<p>Sunday: Closed</p>
+					<!-- Map -->
+					<div class="col-md-4">
+						<h3 class="h5">Find Us</h3>
+
+						<iframe
+							class="map-embed"
+							src="https://maps.google.com/maps?q=224%20Victoria%20Street%2C%20Hamilton%2C%20New%20Zealand&t=&z=13&ie=UTF8&iwloc=&output=embed"
+							loading="lazy"
+							title="Snazzy Paws Grooming location map"
+							allowfullscreen="">
+						</iframe>
+					</div>
+
 				</div>
 
-				<div class="footer-map">
-					<h3>Find Us</h3>
-					<iframe
-						class="map-embed"
-						src="https://maps.google.com/maps?q=224%20Victoria%20Street%2C%20Hamilton%2C%20New%20Zealand&t=&z=13&ie=UTF8&iwloc=&output=embed"
-						loading="lazy"
-						title="Snazzy Paws Grooming location map"
-						allowfullscreen="">
-					</iframe>
+				<hr class="border-light my-4">
+
+					<p class="small mb-0 text-center">
+						&copy; 2026 Snazzy Paws Grooming. All rights reserved.
+					</p>
+
 				</div>
-			</div>
-			<div class="footer-divider"></div>
-			<p class="copyright">&copy; 2026 Snazzy Paws Grooming. All rights reserved.</p>
 		</footer>
 
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
