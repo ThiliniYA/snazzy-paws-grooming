@@ -1,239 +1,352 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snazzy Paws Grooming | Home</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.min.css">
+	<head>
+		<!-- ============================
+                  Meta & Page Settings
+             ============================ -->
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta name="description" content="Snazzy Paws Grooming – professional dog grooming services in Hamilton.">
+					<title>Snazzy Paws Grooming | Home</title>
+
+					<!-- ============================
+                              Fonts & Stylesheets
+                         ============================ -->
+					<link rel="preconnect" href="https://fonts.googleapis.com">
+						<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+							<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+								<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-	<header>
-		<nav>
-			<a href="index.html" class="logo">
-				<img src="images/logo.png" alt="Snazzy Paws Grooming" class="logo-img">
-        </a>
 
-			<input type="checkbox" id="nav-toggle" class="nav-toggle">
-				<label for="nav-toggle" class="nav-toggle-label">
-    <span class="visually-hidden">Open menu</span>
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-</label>
+	<body>
 
-				<ul>
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="services.html">Services</a>
-					</li>
-					<li>
-						<a href="booking.html">Booking</a>
-					</li>
-					<li>
-						<a href="gallery.html">Gallery</a>
-					</li>
-					<li>
-						<a href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</nav>
-	</header>
+		<!-- ============================
+                  Header & Navigation
+             ============================ -->
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-custom py-2">
+				<div class="container">
 
-        <main>
-        <!-- Hero section -->
-			<section class="hero hero-compact">
-				<div class="hero-content">
-        <h1>Where Every Dog Gets the Snazzy Treatment</h1>
-        <p>We provide loving care and professional grooming to keep your dog looking and feeling their best.</p>
-		<a href="booking.html" class="btn">
-			<svg class="btn-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-				<ellipse cx="32" cy="42" rx="16" ry="13"/>
-				<ellipse cx="14" cy="24" rx="6" ry="8"/>
-				<ellipse cx="28" cy="12" rx="6" ry="8"/>
-				<ellipse cx="44" cy="12" rx="6" ry="8"/>
-				<ellipse cx="52" cy="26" rx="6" ry="8"/>
-			</svg>
-			Book an Appointment
-		</a>
-	</div>
-</section>
+					<!-- Logo -->
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" alt="Snazzy Paws Grooming" class="logo-img">
+                </a>
 
-        <!-- Opening hours strip -->
-      <section class="hours-strip">
-         <h2 class="visually-hidden">Opening Hours</h2>
-         <div class="hours-inner">
-        <div class="hours-label">
-            <svg class="hours-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/>
-                <line x1="12" y1="12" x2="12" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <line x1="12" y1="12" x2="15.5" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-            <span>OPENING HOURS</span>
-        </div>
-        <div class="hours-day">
-            <strong>Monday – Saturday</strong>
-            <span>9:00 AM – 5:00 PM</span>
-        </div>
-        <div class="hours-day">
-            <strong>Sunday</strong>
-            <span>Closed</span>
-        </div>
-        <div class="hours-note">
-            <svg class="hours-icon small" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <ellipse cx="32" cy="42" rx="16" ry="13"/>
-                <ellipse cx="14" cy="24" rx="6" ry="8"/>
-                <ellipse cx="28" cy="12" rx="6" ry="8"/>
-                <ellipse cx="44" cy="12" rx="6" ry="8"/>
-                <ellipse cx="52" cy="26" rx="6" ry="8"/>
-            </svg>
-            <span>Appointments recommended</span>
-        </div>
-    </div>
-</section>
-        <!-- Quick links -->
-        <section class="quick-links">
-           	  <h2 class="visually-hidden">Quick Links</h2>
-    		  <a href="services.html" class="quick-link-card">
-        <span class="qlc-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="6" cy="6" r="3" fill="none" stroke="currentColor" stroke-width="2"/>
-                <circle cx="6" cy="18" r="3" fill="none" stroke="currentColor" stroke-width="2"/>
-                <line x1="8.5" y1="8" x2="19" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <line x1="8.5" y1="16" x2="19" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-        </span>
-        Services
-    </a>
-    <a href="booking.html" class="quick-link-card">
-        <span class="qlc-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
-                <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/>
-                <line x1="7" y1="3" x2="7" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <line x1="17" y1="3" x2="17" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-        </span>
-        Booking
-    </a>
-    <a href="gallery.html" class="quick-link-card">
-        <span class="qlc-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
-                <circle cx="9" cy="10" r="1.8" fill="currentColor"/>
-                <path d="M4 17l5-5 4 4 3-3 4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </span>
-        Gallery
-    </a>
-    <a href="contact.html" class="quick-link-card">
-        <span class="qlc-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 7a2 2 0 0 1 1-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-            </svg>
-        </span>
-        Contacts
-    </a>
-</section>
+					<!-- Mobile Menu Toggle -->
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+							aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-        <!-- Introduction -->
-        <section class="intro">
-           <img src="images/Intro.jpg" alt="Happy freshly groomed dog at Snazzy Paws Grooming" class="introimg">
-            <div class="intro-text">
-                <h2>Welcome to Snazzy Paws Grooming</h2>
-                <p>
-                    Snazzy Paws Grooming is a Hamilton based dog grooming salon started by a couple
-                    passionate about dogs. We provide top notch grooming services to locals and pet
-                    owners across the wider community, from a quick bath and brush to full spa packages.
-                </p>
-			<a href="gallery.html" class="btn">
-        <svg class="btn-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M12 21s-7-4.35-9.5-8.5C.7 9 2 5.5 5.3 5.1 7.4 4.85 9 6 12 8.5 15 6 16.6 4.85 18.7 5.1 22 5.5 23.3 9 21.5 12.5 19 16.65 12 21 12 21z" fill="currentColor"/>
-        </svg>
-        Learn More
-    </a>
-            </div>
-        </section>
-			<!-- Map (mobile only) -->
-			<section class="mobile-map">
-   				 <h2 class="visually-hidden">Find Us</h2>
-    			 <div class="mobile-map-embed">
-					<iframe
-						src="https://maps.google.com/maps?q=224%20Victoria%20Street%2C%20Hamilton%2C%20New%20Zealand&t=&z=14&ie=UTF8&iwloc=&output=embed"
-						loading="lazy"
-						title="Snazzy Paws Grooming location map"
-						allowfullscreen="">
-					</iframe>
+					<!-- Navigation Links -->
+					<div class="collapse navbar-collapse" id="mainNav">
+						<ul class="navbar-nav ms-auto text-center">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="services.html">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="booking.html">Booking</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="gallery.html">Gallery</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="roster.html">Roster</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="privacy.html">Privacy</a>
+							</li>
+						</ul>
+					</div>
+
 				</div>
-			</section>
-    </main>
+			</nav>
+		</header>
 
-       <footer>
-    <div class="footer-inner">
-        <div class="footer-brand">
-			<img src="images/logo1.png" alt="Snazzy Paws Grooming" class="footer-logo-img">
-            <p>Professional grooming with a personal touch.</p>
-				<div class="social-links-wrapper">
-					<p class="follow-label">Follow Us</p>
-					<div class="social-links">
-						 <a href="#" aria-label="Facebook">
-        <img src="images/FB.png" alt="">
-			
-	</a>
-    <a href="#" aria-label="Instagram">
-        <img src="images/Insta.png" alt="">
-    </a>
-    <a href="#" aria-label="TikTok">
-        <img src="images/TikTok.png" alt="">
-    </a>
-						
+		<!-- ============================
+                Hero Section
+             ============================ -->
+		<main>
+			<section class="hero">
+				<div class="container">
+					<div class="col-lg-7">
+
+						<!-- Hero Heading -->
+						<h1 class="display-5 fw-bold mb-3">
+							Where Every Dog Gets the Snazzy Treatment
+						</h1>
+
+						<!-- Hero Subtext -->
+						<p class="lead mb-4">
+							We provide loving care and professional grooming to keep your dog looking and feeling their best.
+						</p>
+
+						<!-- Call-to-Action Button -->
+						<a href="booking.html" class="btn btn-lg rounded-pill">
+							<svg class="btn-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+								<ellipse cx="32" cy="42" rx="16" ry="13"/>
+								<ellipse cx="14" cy="24" rx="6" ry="8"/>
+								<ellipse cx="28" cy="12" rx="6" ry="8"/>
+								<ellipse cx="44" cy="12" rx="6" ry="8"/>
+								<ellipse cx="52" cy="26" rx="6" ry="8"/>
+							</svg>
+							Book an Appointment
+						</a>
+
 					</div>
 				</div>
-        </div>
+			</section>
 
-		<div class="footer-contact">
-			<h3>Contact Us</h3>
-			<p class="footer-contact-item">
-				<svg class="footer-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-					<path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 7a2 2 0 0 1 1-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-				</svg>
-				07 123 4567
-			</p>
-			<p class="footer-contact-item">
-				<svg class="footer-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-					<rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
-					<path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-				</svg>
-				info@snazzypawsgrooming.co.nz
-			</p>
-			<p class="footer-contact-item">
-				<svg class="footer-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-					<path d="M12 21s-6.5-5.6-6.5-11A6.5 6.5 0 0 1 12 3.5 6.5 6.5 0 0 1 18.5 10c0 5.4-6.5 11-6.5 11z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-					<circle cx="12" cy="10" r="2.2" fill="none" stroke="currentColor" stroke-width="2"/>
-				</svg>
-				224 Victoria Street, Hamilton 3204
-			</p>
-			<h3 class="hours-heading">Opening Hours</h3>
-			<p>Monday – Saturday: 9:00 AM – 5:00 PM</p>
-			<p>Sunday: Closed</p>
-		</div>
-		<div class="footer-map">
-			<h3>Find Us</h3>
-			<iframe
-				class="map-embed"
-						src="https://maps.google.com/maps?q=224%20Victoria%20Street%2C%20Hamilton%2C%20New%20Zealand&t=&z=13&ie=UTF8&iwloc=&output=embed"
-				loading="lazy"
-				title="Snazzy Paws Grooming location map"
-				allowfullscreen="">
-			</iframe>
-		</div>
-    </div>
-		   <div class="footer-divider"></div>
-    <p class="copyright">&copy; 2026 Snazzy Paws Grooming. All rights reserved.</p>
-</footer>
 
-</body>
+		<!-- ============================
+                     Opening Hours 
+             ============================ -->
+		<section class="hours-strip py-3">
+			<h2 class="visually-hidden">Opening Hours</h2>
+
+			<div class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between gap-3 text-center text-md-start">
+
+				<!-- Hours Title -->
+				<div class="fw-bold text-uppercase small">
+					<svg class="hours-icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+						<circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/>
+						<line x1="12" y1="12" x2="12" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+						<line x1="12" y1="12" x2="15.5" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+					</svg>
+					Opening Hours
+				</div>
+
+				<!-- Monday–Saturday -->
+				<div class="d-flex flex-column">
+					<strong>Monday &ndash; Saturday</strong>
+					<span class="text-muted small">9:00 AM &ndash; 5:00 PM</span>
+				</div>
+
+				<!-- Sunday -->
+				<div class="d-flex flex-column">
+					<strong>Sunday</strong>
+					<span class="text-muted small">Closed</span>
+				</div>
+
+				<!-- Appointment Note -->
+				<div class="fw-semibold text-primary d-flex align-items-center gap-2">
+					<svg width="18" height="18" viewBox="0 0 64 64" aria-hidden="true" fill="currentColor">
+						<ellipse cx="32" cy="42" rx="16" ry="13"/>
+						<ellipse cx="14" cy="24" rx="6" ry="8"/>
+						<ellipse cx="28" cy="12" rx="6" ry="8"/>
+						<ellipse cx="44" cy="12" rx="6" ry="8"/>
+						<ellipse cx="52" cy="26" rx="6" ry="8"/>
+					</svg>
+					Appointments recommended
+				</div>
+
+			</div>
+		</section>
+
+
+		<!--====================
+             Quick Links 
+            ==================== -->
+		<section class="quick-links py-5">
+			<h2 class="visually-hidden">Quick Links</h2>
+
+			<div class="container">
+				<div class="row row-cols-2 row-cols-md-4 g-3 text-center">
+
+					<!-- Services Card -->
+					<div class="col">
+						<a href="services.html" class="quick-link-card card border p-3 text-decoration-none h-100">
+							<span class="qlc-icon d-flex align-items-center justify-content-center mx-auto mb-2">
+								<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+									<circle cx="6" cy="6" r="3" fill="none" stroke="currentColor" stroke-width="2"/>
+									<circle cx="6" cy="18" r="3" fill="none" stroke="currentColor" stroke-width="2"/>
+									<line x1="8.5" y1="8" x2="19" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+									<line x1="8.5" y1="16" x2="19" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							</span>
+							<span class="fw-bold">Services</span>
+						</a>
+					</div>
+
+					<!-- Booking Card -->
+					<div class="col">
+						<a href="booking.html" class="quick-link-card card border p-3 text-decoration-none h-100">
+							<span class="qlc-icon d-flex align-items-center justify-content-center mx-auto mb-2">
+								<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+									<rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+									<line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/>
+									<line x1="7" y1="3" x2="7" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+									<line x1="17" y1="3" x2="17" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							</span>
+							<span class="fw-bold">Booking</span>
+						</a>
+					</div>
+
+					<!-- Gallery Card -->
+					<div class="col">
+						<a href="gallery.html" class="quick-link-card card border p-3 text-decoration-none h-100">
+							<span class="qlc-icon d-flex align-items-center justify-content-center mx-auto mb-2">
+								<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+									<rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+									<circle cx="9" cy="10" r="1.8" fill="currentColor"/>
+									<path d="M4 17l5-5 4 4 3-3 4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</span>
+							<span class="fw-bold">Gallery</span>
+						</a>
+					</div>
+
+					<!-- Contact Card -->
+					<div class="col">
+						<a href="contact.html" class="quick-link-card card border p-3 text-decoration-none h-100">
+							<span class="qlc-icon d-flex align-items-center justify-content-center mx-auto mb-2">
+								<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+									<path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 7a2 2 0 0 1 1-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+								</svg>
+							</span>
+							<span class="fw-bold">Contacts</span>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<!--=======================
+             Introduction 
+          ======================== -->
+		<section class="intro py-4">
+			<div class="container">
+				<div class="row align-items-center g-4">
+
+					<!-- Intro Image -->
+					<div class="col-md-6">
+						<img src="images/Intro.jpg" alt="Happy freshly groomed dog relaxing after a grooming session at Snazzy Paws" class="img-fluid rounded">
+                    </div>
+
+					<!-- Intro Text -->
+					<div class="col-md-6">
+						<h2>Welcome to Snazzy Paws Grooming</h2>
+						<p>
+							Snazzy Paws Grooming is a Hamilton based dog grooming salon started by a couple
+							passionate about dogs. We provide top notch grooming services to locals and pet
+							owners across the wider community, from a quick bath and brush to full spa packages.
+						</p>
+
+						<!-- CTA Button -->
+						<a href="gallery.html" class="btn btn-lg rounded-pill">
+							<svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true">
+								<path d="M12 21s-7-4.35-9.5-8.5C.7 9 2 5.5 5.3 5.1 7.4 4.85 9 6 12 8.5 15 6 16.6 4.85 18.7 5.1 22 5.5 23.3 9 21.5 12.5 19 16.65 12 21 12 21z" fill="currentColor"/>
+							</svg>
+							Learn More
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</main>
+
+		<!-- =================================
+                 Mobile Map (Small Screens)
+             ================================= -->
+		<section class="mobile-map d-lg-none py-4">
+			<h2 class="visually-hidden">Find Us</h2>
+
+			<div class="container">
+				<div class="ratio ratio-16x9 rounded overflow-hidden">
+					<iframe
+                        src="https://maps.google.com/maps?q=224%20Victoria%20Street%2C%20Hamilton%2C%20New%20Zealand&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                        loading="lazy"
+                        title="Snazzy Paws Grooming location map"
+                        allowfullscreen="">
+					</iframe>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- ============================
+                       Footer
+             ============================ -->
+		<footer class="pt-5 pb-3">
+			<div class="container">
+				<div class="row gy-4">
+
+					<!-- Brand + Social -->
+					<div class="col-md-4">
+						<img src="images/logo1.png" alt="Snazzy Paws Grooming" class="footer-logo-img mb-2">
+							<p class="small">Professional grooming with a personal touch.</p>
+							<p class="fw-semibold mb-2">Follow Us</p>
+							<div class="social-links d-flex gap-2">
+								<a href="#" aria-label="Facebook">
+									<img src="images/FB.png" alt="Facebook" width="18">
+								</a>
+								<a href="#" aria-label="Instagram">
+									<img src="images/Insta.png" alt="Instagram" width="18">
+								</a>
+								<a href="#" aria-label="TikTok">
+									<img src="images/TikTok.png" alt="TikTok" width="18">
+								</a>
+							</div>
+						</div>
+
+					<!-- Contact Info -->
+					<div class="col-md-4">
+						<h3 class="h5">Contact Us</h3>
+						<p class="footer-contact-item d-flex align-items-start gap-2 mb-1">
+							<svg class="footer-icon" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+								<path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 7a2 2 0 0 1 1-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+							</svg>
+							07 123 4567
+						</p>
+						<p class="footer-contact-item d-flex align-items-start gap-2 mb-1">
+							<svg class="footer-icon" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+								<rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+								<path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+							info@snazzypawsgrooming.co.nz
+						</p>
+						<p class="footer-contact-item d-flex align-items-start gap-2">
+							<svg class="footer-icon" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+								<path d="M12 21s-6.5-5.6-6.5-11A6.5 6.5 0 0 1 12 3.5 6.5 6.5 0 0 1 18.5 10c0 5.4-6.5 11-6.5 11z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+								<circle cx="12" cy="10" r="2.2" fill="none" stroke="currentColor" stroke-width="2"/>
+							</svg>
+							224 Victoria Street, Hamilton 3204
+						</p>
+						<h3 class="h5 mt-3">Opening Hours</h3>
+						<p class="mb-0">Monday &ndash; Saturday: 9:00 AM &ndash; 5:00 PM</p>
+						<p>Sunday: Closed</p>
+					</div>
+
+					<!-- Map -->
+					<div class="col-md-4">
+						<h3 class="h5">Find Us</h3>
+						<iframe
+							class="map-embed"
+							src="https://maps.google.com/maps?q=224%20Victoria%20Street%2C%20Hamilton%2C%20New%20Zealand&t=&z=13&ie=UTF8&iwloc=&output=embed"
+							loading="lazy"
+							title="Snazzy Paws Grooming location map"
+							allowfullscreen="">
+						</iframe>
+					</div>
+
+				</div>
+
+				<hr class="border-light my-4">
+					<p class="small mb-0 text-center">&copy; 2026 Snazzy Paws Grooming. All rights reserved.</p>
+				</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>
